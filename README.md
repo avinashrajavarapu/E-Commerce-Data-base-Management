@@ -28,12 +28,14 @@ INTRODUCTION
 E-commerce database management involves creating and maintaining a
 database to manage an online store's data. This includes managing customer
 information, product information, orders, and other related data.
+
 An ecommerce database for orders and customers is a crucial aspect of any
 online retail business. This database serves as the foundation of an
 ecommerce site, tracking and managing all the essential customer and order
 data. The database includes customer information such as names, contact
 details, and addresses, along with order details, such as order date, payment
 method, and shipping information.
+
 The ecommerce database provides a seamless shopping experience for
 customers, allowing them to easily browse products, place orders, and track
 shipments.
@@ -41,11 +43,12 @@ To create an e-commerce database, you need to start by identifying the data
 entities that need to be stored. This typically includes customers, products,
 orders, and order items. We will then need to create tables for each of these
 entities, with columns to store relevant information.
-8
+
 Once the tables are created, we can begin to insert data into them. This can
 be done manually or via an automated process. It's important to ensure that
 data is entered accurately and consistently to ensure the database functions
 correctly.
+
 As the database is used, it will need to be maintained and optimized to
 ensure it performs efficiently. This includes tasks such as regularly backing up
 the database, optimizing queries, and monitoring for any issues or errors.
@@ -104,11 +107,19 @@ DATABASE SCHEMA
   
 ER DIAGRAM
 
+<img width="239" alt="image" src="https://user-images.githubusercontent.com/112554726/220886155-eb3604f7-467a-4cb3-ab84-7b406c4d9157.png">
+
+
 REPRESENTATION
+
+![image](https://user-images.githubusercontent.com/112554726/220886261-c6bfdaa6-55af-4fd3-b974-c6e7bdb9f682.png)
+
 
 SQL IMPLEMETATION
 
 Creation of Tables
+
+
 
 Insertion of Values
 
