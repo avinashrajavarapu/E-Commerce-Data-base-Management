@@ -8,14 +8,17 @@ and manage data for an ecommerce business. An ecommerce database is an
 important tool for any ecommerce business, as it allows you to efficiently
 store, manage, and retrieve data related to your customers, products, and
 orders.
+
 For example, it might include tables for storing customer information,
 product information, and order information, as well as relationships between
 these tables to allow for easy linking of data.
+
 Some of the key components of an ecommerce database might include:
 Product information: This can include details about the products being sold,
 such as the name, price and any other relevant information.
 Customer information : This can include details about the customers who
 are making purchases, such as their name, contact information.
+
 Order information: This can include details about the orders that have been
 placed, such as the products that were purchased, the quantities, the prices,
 the shipping details, and any other relevant information.
@@ -54,6 +57,7 @@ operations, improve customer satisfaction, and ultimately increase sales.
 DATABASE SCHEMA
 
 1.Customers Table
+
   customer_id (number, primary key)
   first_name (varchar2)
   last_name (varchar2)
@@ -65,7 +69,9 @@ DATABASE SCHEMA
   name, and the email column stores the customer's email address.
   The billing_address and shipping_address columns store the customer's
   billing and shipping addresses, respectively.
+  
 2.Products Table
+
   product_id (number, primary key)
   name (varchar2)
   description (varcha2)
@@ -76,7 +82,9 @@ DATABASE SCHEMA
   column stores the price of the product.
   We may even include additional columns like image_url, category_id, or
   in_stock depending on the needs of e-commerce store.
+  
 3.Orders Table
+
   order_id (number, primary key)
   customer_id (number, foreign key references customers(customer_id))
   date (date)
@@ -85,7 +93,9 @@ DATABASE SCHEMA
   customer_id column in the customers table, which allows you to link each
   order to the customer who placed it. The date column stores the date when
   the order was placed.
+  
 4.Order_items Table
+
   Order_item_id (number,primary key)
   Order_id (number,foreign key references order(order_id))
   Product_id (number,foreign key references products(product_id))
@@ -118,6 +128,7 @@ In conclusion, an ecommerce database project is an essential aspect of any onlin
 business. The project report focuses on designing and maintaining a well-structured
 database that tracks and manages all essential customer and order data, along with
 product inventory.
+
 The database plays a crucial role in providing customers with a seamless shopping
 experience, making it easy for them to browse products, place orders, and track
 shipments. For businesses, the database helps to manage inventory, track sales, and
