@@ -21,6 +21,7 @@ placed, such as the products that were purchased, the quantities, the prices,
 the shipping details, and any other relevant information.
 
 INTRODUCTION
+
 E-commerce database management involves creating and maintaining a
 database to manage an online store's data. This includes managing customer
 information, product information, orders, and other related data.
@@ -51,6 +52,7 @@ data is properly managed and maintained, businesses can streamline their
 operations, improve customer satisfaction, and ultimately increase sales.
 
 DATABASE SCHEMA
+
 1.Customers Table
   customer_id (number, primary key)
   first_name (varchar2)
@@ -95,11 +97,13 @@ ER DIAGRAM
 REPRESENTATION
 
 SQL IMPLEMETATION
+
 Creation of Tables
 
 Insertion of Values
 
 SAMPLE SQL QUERIES
+
 1. Get the customers who have ordered the same product more than once
 2. Get the customers who have placed orders for products with a total value of at
 least 500
